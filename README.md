@@ -119,7 +119,7 @@ You might just want to get the prefix of a mobile number.
 ```ruby
 mobileNumber = '09171231234'
 
-msisdn = MsisdnPH::Msisdn(mobileNumber)
+msisdn = MsisdnPH::Msisdn.new(mobileNumber)
 
 puts msisdn.prefix // will return 917
 ```
