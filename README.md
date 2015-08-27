@@ -49,7 +49,7 @@ You can instantiate an MSISDN object and get a standardized format of your mobil
 ```ruby
 mobileNumber = '09171231234'
 
-$msisdn = MsisdnPH::Msisdn.new(mobileNumber);
+msisdn = MsisdnPH::Msisdn.new(mobileNumber)
 ```
 
 The MSISDN object will throw an `Exception` if you give it an invalid mobile number, so it's best to either catch the exception OR validate it before creating an MSISDN object.
