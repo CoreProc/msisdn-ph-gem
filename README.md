@@ -1,5 +1,7 @@
 # MsisdnPH - Ruby
 
+Ruby port of the [MsisdnPH - PHP](https://github.com/CoreProc/msisdn-ph-php) library.
+
 Easily validate and manipulate Philippine mobile numbers.
 
 ## Installation
