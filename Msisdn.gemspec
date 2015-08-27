@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'Msisdn/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Msisdn"
+  spec.name          = "msisdn-ph"
   spec.version       = Msisdn::VERSION
   spec.authors       = ["Jameson Candava"]
   spec.email         = ["candavajameson@gmail.com"]

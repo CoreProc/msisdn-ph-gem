@@ -7,7 +7,7 @@ Easily validate and manipulate Philippine mobile numbers.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'Msisdn'
+gem 'msisdn-ph'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install Msisdn
+    $ gem install msisdn-ph
 
 ## Usage
 
