@@ -35,4 +35,14 @@ RSpec.describe MsisdnPH::Msisdn do
 		end
 	end
 
+	describe "prefix" do
+		it "should return the correct prefix" do
+
+			msisdn = MsisdnPH::Msisdn.new "09171231234"
+
+			expect(msisdn.prefix).to eq "917"
+			
+		end
+	end
+
 end
