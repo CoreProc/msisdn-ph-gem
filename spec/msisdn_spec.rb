@@ -1,48 +1,48 @@
 require 'Msisdn'
 
 RSpec.describe MsisdnPH::Msisdn do
-
-	describe "validate" do
-		it "returns true if valid mobile number" do
-			expect(MsisdnPH::Msisdn.validate("09171231234")).to eq true
-		end
-
-		it "returns false if invalid mobile number" do
-			expect(MsisdnPH::Msisdn.validate("0918123123")).to eq false
-		end
+  
+  describe "validate" do
+    it "returns true if valid mobile number" do
+	  expect(MsisdnPH::Msisdn.validate("09171231234")).to eq true
 	end
 
-	describe "operator" do
-		it "returns the correct operator" do
+	it "returns false if invalid mobile number" do
+	  expect(MsisdnPH::Msisdn.validate("0918123123")).to eq false
+	end
+  end
+
+  describe "operator" do
+    it "returns the correct operator" do
 			
-			globeMsisdn = MsisdnPH::Msisdn.new "09171231234"
+	  globeMsisdn = MsisdnPH::Msisdn.new "09171231234"
 
-			smartMsisdn = MsisdnPH::Msisdn.new "09191231234"
+  	  smartMsisdn = MsisdnPH::Msisdn.new "09191231234"
 
-			sunMsisdn = MsisdnPH::Msisdn.new "09321231234"
+	  sunMsisdn = MsisdnPH::Msisdn.new "09321231234"
 
-			unknownMsisdn = MsisdnPH::Msisdn.new "09511231234"
+	  unknownMsisdn = MsisdnPH::Msisdn.new "09511231234"
 
 
-			expect(globeMsisdn.operator).to eq "GLOBE"
+	  expect(globeMsisdn.operator).to eq "GLOBE"
 
-			expect(smartMsisdn.operator).to eq "SMART"
+	  expect(smartMsisdn.operator).to eq "SMART"
 
-			expect(sunMsisdn.operator).to eq "SUN"
+	  expect(sunMsisdn.operator).to eq "SUN"
 
-			expect(unknownMsisdn.operator).to eq "UNKNOWN"
+	  expect(unknownMsisdn.operator).to eq "UNKNOWN"
 
-		end
 	end
+  end
 
-	describe "prefix" do
-		it "should return the correct prefix" do
+  describe "prefix" do
+    it "should return the correct prefix" do
 
-			msisdn = MsisdnPH::Msisdn.new "09171231234"
+	  msisdn = MsisdnPH::Msisdn.new "09171231234"
 
-			expect(msisdn.prefix).to eq "917"
-			
-		end
+	  expect(msisdn.prefix).to eq "917"
+
 	end
-
+  end
+  
 end
