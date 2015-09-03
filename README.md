@@ -1,5 +1,8 @@
 # MsisdnPH - Ruby
 
+[Gem Version]: https://rubygems.org/gems/msisdn-ph
+[Build Status]: https://travis-ci.org/CoreProc/msisdn-ph-gem
+
 Ruby port of the [MsisdnPH - PHP](https://github.com/CoreProc/msisdn-ph-php) library.
 
 Easily validate and manipulate Philippine mobile numbers.
