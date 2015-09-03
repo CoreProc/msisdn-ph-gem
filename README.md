@@ -1,7 +1,7 @@
 # MsisdnPH - Ruby
 
-[Gem Version]: https://rubygems.org/gems/msisdn-ph
-[Build Status]: https://travis-ci.org/CoreProc/msisdn-ph-gem
+[![Gem Version](https://badge.fury.io/rb/msisdn-ph.svg)](http://badge.fury.io/rb/msisdn-ph)
+[![Build Status][ico-travis]][https://travis-ci.org/CoreProc/msisdn-ph-gem]
 
 Ruby port of the [MsisdnPH - PHP](https://github.com/CoreProc/msisdn-ph-php) library.
 
