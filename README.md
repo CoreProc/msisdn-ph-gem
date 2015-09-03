@@ -149,4 +149,6 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+[ico-travis]: https://img.shields.io/travis/CoreProc/msisdn-ph-php/master.svg?style=flat-square
+
 [link-travis]: https://travis-ci.org/CoreProc/msisdn-ph-gem
