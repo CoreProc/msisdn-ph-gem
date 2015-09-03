@@ -1,7 +1,8 @@
 # MsisdnPH - Ruby
+=====================
 
 [![Gem Version](https://badge.fury.io/rb/msisdn-ph.svg)](http://badge.fury.io/rb/msisdn-ph)
-[![Build Status][ico-travis]][https://travis-ci.org/CoreProc/msisdn-ph-gem]
+[![Build Status][ico-travis]][link-travis]
 
 Ruby port of the [MsisdnPH - PHP](https://github.com/CoreProc/msisdn-ph-php) library.
 
@@ -148,3 +149,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+[link-travis]: https://travis-ci.org/CoreProc/msisdn-ph-gem
